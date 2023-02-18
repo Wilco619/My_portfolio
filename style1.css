@@ -26,7 +26,8 @@
    }
    .skill-container{
       display: flex;
-      margin-left: 60px;
+      width: 95%;
+      margin-left: 10px;
       margin-top: 20px;
    }
    .project-section-section{
@@ -46,10 +47,10 @@
    }
    h2{
       font-size: 1.3em;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
    }
    .about-about{
-      width: 270px;
+      width: 350px;
       height: 250px;
    }
    .about-about,#myChart2,.frame-,form,.cv-sec-1{
@@ -82,7 +83,7 @@
    }
    #contacts_left_row,.frame-{
       margin-bottom: 0;
-      margin-top: 10px;
+      margin-top: 25px;
       
    }
    .phone-icon,.envelope-icon,.map-icon{
