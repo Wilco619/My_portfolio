@@ -43,7 +43,7 @@
    }
    p{
       line-height: 1.2em;
-      font-size: .9em;
+      font-size: 1em;
    }
    h2{
       font-size: 1.3em;
@@ -55,6 +55,7 @@
    }
    .about-about,#myChart2,.frame-,form,.cv-sec-1{
       margin: auto;
+      margin-top: 20px;
    }
    .about-me-img{
       width: 200px;
