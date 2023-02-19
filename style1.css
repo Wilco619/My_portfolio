@@ -104,5 +104,74 @@
    .cv-sec-2 a{
       margin-left: 60px;
    }
+  
+   #open-top-nav,#close-top-nav{
+      position: fixed;
+      font-size: 1em;
+      border-radius: 50%;
+      top: 10px;
+      z-index: 900;
+      text-align: center;
+      padding: 4px;
+      height: 35px;
+      width: 35px;
+      font-size: 1.5rem;
+      transition: .2s ease-in-out;
+      background-color: #fff;
+      cursor: pointer;
+      color: #000;
+      right: 10px;
+   }
+   #go-to-top{
+      position: fixed;
+      font-size: 1em;
+      border-radius: 50%;
+      bottom: 20vh;
+      z-index: 900;
+      text-align: center;
+      padding: 2px;
+      height: 30px;
+      width: 30px;
+      font-size: 2rem;
+      transition: .2s ease-in-out;
+      background-color: #635e5e;
+      cursor: pointer;
+      color: black;
+      right: 20px;
+   }
+   #top-nav{
+      width: 100%;
+      height: 0;
+      z-index: 800;
+      top: 0;
+      overflow-y: hidden;
+      position: fixed;
+      transition: all .5s ease-in-out;
+      background-color: #fff;
+   }
+   #top-nav-content{
+      display: flex;
+      margin-top: 15px;
+      justify-content: space-evenly;
+   }
+   #top-ulist,.top-social{
+      display: block;
+      padding:;
+      font-size: 1.2em;
+      margin: 10px 0 0;
+   }
+   .top-social a{
+      margin-left: 10px;
+      padding-top: 20px ;
+   }
+   .top-social a:nth-child(1){
+      font-size: 1.3em;
+   }
+   .top-social{
+      display: flex;
+   }
+   #top-ulist li{
+      margin: 15px 0 25px 0;
+   }
  
 }

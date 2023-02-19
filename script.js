@@ -14,11 +14,24 @@ function closeSlide() {
     }, 500);
     document.getElementById("close-slide").style.visibility = "visible";
 }
-// var aboutme = document.getElementById("aboutme")
-// var projects = document.getElementById("projects")
-// var skills = document.getElementById("skills")
-// var contacts = document.getElementById("contacts")
-// var resume = document.getElementById("resume")
+function openTop(){
+  document.getElementById("top-nav").style.height = "300px";
+  document.getElementById("open-top-nav").style.visibility = "hidden";
+  setTimeout(function(){
+    document.getElementById("close-top-nav").style.visibility = "visible";
+  },400)
+}
+function closeTop(){
+  document.getElementById("top-nav").style.height = "0";
+  document.getElementById("close-top-nav").style.visibility = "hidden";
+  setTimeout(function(){
+    document.getElementById("open-top-nav").style.visibility = "visible";
+  },400);
+}
+function getLink() {
+  document.getElementById("top-nav").style.height = "0";
+}
+
 var nav_btn = document.getElementsByClassName("nav_btn")
 
 var xValues = ["Php", "Java", "Python", "HTML/CSS", "Javascript",""];
@@ -51,32 +64,6 @@ document.addEventListener("scroll", ()=>{
 nav_btn[0].style.color = "#dc143c"
 
 
-// aboutme.addEventListener("click", (e)=> {
-//     e.preventDefault()
-//     click(0,0)
-// })
-// projects.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     click(971,1)
-
-// })
-// skills.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     click((971*2),2)
-
-
-// })
-// contacts.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     click((971*3),3)
-
-// })
-// resume.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     click((971*4),4)
-
-// })
-
 
 const click = (x,index)=>{
     for(var i = 0; i <nav_btn.length; i++){
@@ -85,12 +72,6 @@ const click = (x,index)=>{
     window.scrollTo(x, 0)
     nav_btn[index].style.color = "#dc143c"
   };
-
-// }
-// window.addEventListener("wheel", (e) =>{
-//     e.preventDefault();
-//     window.scrollBy({ left:e.deltaY < 0 ? -75*12.6 : 75*12.6, });
-// });
 
 
 new Chart("myChart", {
