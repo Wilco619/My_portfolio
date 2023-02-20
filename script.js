@@ -30,6 +30,12 @@ function closeTop(){
 }
 function getLink() {
   document.getElementById("top-nav").style.height = "0";
+  setTimeout(function(){
+    document.getElementById("open-top-nav").style.visibility = "visible";
+  },400);
+  setTimeout(function(){
+    document.getElementById("close-top-nav").style.visibility = "visible";
+  },400)
 }
 
 var nav_btn = document.getElementsByClassName("nav_btn")
