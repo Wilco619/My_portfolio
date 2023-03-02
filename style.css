@@ -427,6 +427,10 @@ textarea{
 .phone-icon:hover a, .envelope-icon:hover a, .map-icon:hover a{
     color: aliceblue;
 }
+#sec_4{
+    background-image: url(./images/homepage.png);
+    background-size: cover;
+}
 
 
 .cv-section{
