@@ -40,7 +40,7 @@ function getLink() {
 
 var nav_btn = document.getElementsByClassName("nav_btn")
 
-var xValues = ["Php", "Java", "Python", "HTML/CSS", "Javascript",""];
+var xValues = ["C", "Java", "Python", "HTML/CSS", "Javascript",""];
 var yValues = [50, 55, 70, 80, 50,0];
 var barColors = ["#8D9EFF","#dc143c","#F5EA5A","#FC7300","#FFC93C"];
 
