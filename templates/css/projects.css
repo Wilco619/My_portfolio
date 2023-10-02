@@ -1,0 +1,49 @@
+.project{
+    width: 100%;
+    margin: auto;
+    min-height: 320px;
+    position: relative;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    min-height: 250px;
+    z-index: 2;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    min-height: 250px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.overlay-head{
+    margin: auto;
+    width: 200px;
+    margin-top: 120px;
+    text-align: center;
+}
+.img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+}
+.img p{
+    padding: 10px;
+    padding-top: 15px;
+}
+.img img{
+    width: 40%;
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.603);
+}

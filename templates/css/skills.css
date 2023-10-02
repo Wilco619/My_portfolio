@@ -1,0 +1,17 @@
+.skill{
+    padding: 20px;
+    margin: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+.skill h1,p{
+    text-align: left;
+}
+.skill h1{
+    text-decoration: underline;
+}
+.skill p{
+    letter-spacing: .1em;
+    line-height: 1.5em;
+}

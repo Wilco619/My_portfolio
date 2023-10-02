@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lilita+One&family=Pacifico&display=swap');
+
+@media only screen and (min-width: 600px){
+    *{padding: 0;
+        margin: 0;
+        font-family: 'Raleway', sans-serif;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        text-decoration: none;
+    }
+    .page{
+        background-color: cadetblue;
+    }
+}
+
+*{padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: black;
+}
+
+#main1{
+    min-height: 100vh;
+    border-bottom-left-radius: 20px;
+    background-color: aliceblue;
+}
+
+.heading{
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    width: 150px;
+    left: 0;
+    z-index: 700;
+    text-align: center;
+    position: absolute;
+    border-bottom-right-radius: 20px;
+}
+.headingr{
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    width: 150px;
+    right: 0;
+    z-index: 700;
+    text-align: center;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+}
+span{
+    color: crimson;
+    text-decoration: underline;
+}
+
+#main2{
+    min-height: 120vh;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    background-color: aliceblue;
+}
+#main3{
+    min-height: 325vh;
+    margin-top: -20px;
+    border-bottom-left-radius: 20px;
+    background-color: aliceblue;
+}
+#main4{
+    min-height: 200vh;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    border-bottom-right-radius: 20px;
+    background-color: aliceblue;
+}
+#main5{
+    min-height: 100vh;
+    margin-top: -2px;
+    margin-bottom:  -1px ;
+    border-bottom-left-radius: 20px;
+    background-color: aliceblue;
+}
+#main6{
+    min-height: 60vh;
+    bottom: 0;
+    position: relative;
+    border-top-right-radius: 20p;
+    border-top-left-radius: 20px;
+    background-color: aliceblue;
+}

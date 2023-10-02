@@ -1,0 +1,74 @@
+@media only screen and(max-width: 600px){
+    
+}
+#open-top-nav,#close-top-nav{
+    position: fixed;
+    font-size: 1em;
+    border-radius: 50%;
+    top: 10px;
+    z-index: 1000;
+    text-align: center;
+    padding: 4px;
+    height: 35px;
+    width: 35px;
+    font-size: 1.5rem;
+    transition: .2s ease-in-out;
+    background-color: #3a63a1c5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    cursor: pointer;
+    color: aliceblue;
+    right: 10px;
+ }
+ .get_top{
+    position: fixed;
+    font-size: 1em;
+    border-radius: 50%;
+    bottom: 20px;
+    z-index: 900;
+    text-align: center;
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+    background-color: #3a63a1c5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    cursor: pointer;
+    color:aliceblue;
+    right: 20px;
+ }
+ #top-nav{
+    width: 100%;
+    height: 0;
+    z-index: 800;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    overflow-y: hidden;
+    position: fixed;
+    transition: all .5s ease-in-out;
+    backdrop-filter: blur(5px);
+    background-color: #bbd9f748;
+ }
+ #top-nav-content{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+ }
+ #top-ulist{
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    
+ }
+
+ #top-ulist li{
+    margin: 15px 0 25px 0;
+    text-align: center;
+    background-color: #ffffffd5;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+ }

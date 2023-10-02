@@ -1,0 +1,36 @@
+@media only screen and(max-width: 600px){
+    
+}
+.copyright{
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    border-top-right-radius: 20px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+.downloadbtn{
+    position: absolute;
+    margin-top: 60px;
+    left:10px;
+    z-index: 10;
+}
+
+.download{
+    padding: 20px;
+    border-style: none;
+    color:#fff;
+    
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    background-color: #dc143c;
+}
+
+.download:hover{
+    background-color: #337cc5;
+}

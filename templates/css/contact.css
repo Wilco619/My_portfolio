@@ -1,0 +1,78 @@
+form{
+    width: 75%;
+    margin: auto;
+    display: block;
+    align-items: center;
+ }
+
+ .form-main{
+    padding-top: 50px;
+}
+
+#contacts_left_row{
+    display: flex;
+    align-items:center ;
+    margin: auto;
+    margin-bottom: 10%;
+    justify-content: left;
+ 
+}
+
+.name_email{
+    justify-content: space-between;
+}
+
+input[type="text"], input[type="email"], textarea, .btn{
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+
+input[type="text"], input[type="email"]{
+    border-top-right-radius: 20px;
+}
+
+textarea{
+    height: 150px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+
+.phone-icon, .envelope-icon,.map-icon{
+    font-size: 1.5rem;
+    margin: 10px;
+    color: aliceblue;
+    background-color: #dc143c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    height: 45px ;
+    width: 45px;
+    padding: 4%;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.phone-icon:hover, .envelope-icon:hover, .btn:hover,.map-icon:hover{
+    background-color: #337cc5;
+}
+
+.btn{
+    color: aliceblue;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+    background-color: crimson;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+
+.phone-icon a, .envelope-icon a, .map-icon a{
+    color: aliceblue;
+}
+
+.phone-icon:hover a, .envelope-icon:hover a, .map-icon:hover a{
+    color: aliceblue;
+}
