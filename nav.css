@@ -1,4 +1,4 @@
-@media only screen and(max-width: 600px){
+@media screen and(max-width: 600px){
    #open-top-nav,#close-top-nav{
       position: fixed;
       font-size: 1em;
