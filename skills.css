@@ -1,4 +1,4 @@
-@media screen and(max-width: 600px){
+@media screen and(max-width: 600px){}
     .skill{
         padding: 20px;
         margin: 20px;
@@ -16,4 +16,4 @@
         letter-spacing: .1em;
         line-height: 1.5em;
     }
-}
+

@@ -1,4 +1,4 @@
-@media screen and(max-width: 600px){
+@media screen and(max-width: 600px){}
     .project{
         width: 100%;
         margin: auto;
@@ -48,4 +48,4 @@
         padding-top: 15px;
         background-color: rgba(0, 0, 0, 0.603);
     }
-}
+

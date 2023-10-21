@@ -1,4 +1,4 @@
-@media screen and(max-width: 600px){
+@media screen and(max-width: 600px){}
     .copyright{
         background-color: aliceblue;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
@@ -32,4 +32,4 @@
     .download:hover{
         background-color: #337cc5;
     }
-}
+

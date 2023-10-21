@@ -1,4 +1,4 @@
-@media screen and(max-width: 600px){
+@media screen and(max-width: 600px){}
     .animation{
         opacity: 0;
         transform: translateX(-150px);
@@ -9,4 +9,4 @@
         opacity: 1;
         transform: translateX(0);
     } 
-}
+
