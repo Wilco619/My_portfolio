@@ -45,7 +45,7 @@ textarea{
     font-size: 1.5rem;
     margin: 10px;
     color: aliceblue;
-    background-color: #dc143c;
+    background-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
     height: 45px ;
     width: 45px;
